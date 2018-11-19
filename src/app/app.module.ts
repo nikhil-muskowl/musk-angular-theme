@@ -8,6 +8,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ThankYouComponent } from './pages/thank-you/thank-you.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { SupportComponent } from './pages/support/support.component';
+import { PricingComponent } from './pages/pricing/pricing.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     AboutComponent,
     ContactComponent,
     ThankYouComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SupportComponent,
+    PricingComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
